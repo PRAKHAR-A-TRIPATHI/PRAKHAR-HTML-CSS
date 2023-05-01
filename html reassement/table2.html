@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+            border-color: red;
+            height: 200px;
+            width: 800px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <table border="1px solid black" style="border-collapse: collapse;">
+        <tr>
+            <th colspan="4" style="background-color: gray;">nadpis</th>
+            <th style="background-color: gray;"></th>
+            <th style="background-color: gray;"></th>
+        </tr>
+        <tr>
+            <td style="background-color: blue;" >1</td>
+            <td>2</td>
+            <td style="background-color: blue;" >3</td>
+            <td rowspan="2">4</td>
+            <td colspan="2" rowspan="2" style="background-color: blue;">9</td>
+            
+        </tr>
+        <tr>
+            <td style="background-color: blue;">5</td>
+            <td colspan="2">6</td>
+        </tr>
+    </table>
+</body>
+</html>
